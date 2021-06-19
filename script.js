@@ -8,15 +8,15 @@ const leapYear = () => {
     if (yearInput % 4 === 0) {
         if (yearInput % 100 === 0) {
           if (yearInput % 400 === 0) {
-            document.getElementById("output").innerHTML = "The year " + yearInput + " is a leap year."
+            document.getElementById("output").innerHTML = "The year " + yearInput + " is a leap year"
           } else {
-            document.getElementById("output").innerHTML = "The year " + yearInput + " is not a leap year."
+            document.getElementById("output").innerHTML = "The year " + yearInput + " is not a leap year"
           }
         } else {
-            document.getElementById("output").innerHTML = "The year " + yearInput + " is a leap year."
+            document.getElementById("output").innerHTML = "The year " + yearInput + " is a leap year"
         }
       } else {
-        document.getElementById("output").innerHTML = "The year " + yearInput + " is not a leap year."
+        document.getElementById("output").innerHTML = "The year " + yearInput + " is not a leap year"
       }
     }
 

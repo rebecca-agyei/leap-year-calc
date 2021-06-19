@@ -64,15 +64,14 @@
   
   #check:hover,
   #check:active {
-    background: teal;
-    border-color: teal;
-    color: white;
+    background: rgb(255, 251, 0);
+    border-color: rgb(255, 251, 0);
   }
 
   span{
       font-size: larger;
       font-weight: bold;
       color: black;
-      border: 4px solid;
+      border: 2px solid;
       padding: 10px;
   }
