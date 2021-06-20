@@ -4,6 +4,10 @@ let output = document.getElementById("output")
 
 const leapYear = () => {
     let yearInput = document.getElementById("year").value
+    if(yearInput <= 0){
+        document.getElementById("output").innerHTML = "The year " + yearInput + " is not valid"
+    }
+    else{
 
     if (yearInput % 4 === 0) {
         if (yearInput % 100 === 0) {
@@ -18,6 +22,7 @@ const leapYear = () => {
       } else {
         document.getElementById("output").innerHTML = "The year " + yearInput + " is not a leap year"
       }
+    }
     }
 
 
