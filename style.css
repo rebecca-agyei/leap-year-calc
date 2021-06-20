@@ -7,23 +7,22 @@
   }
   
   body {
-    background-image: url('imgs/background.png');
+    background-image: url('imgs/bkd.jpg');
     background-repeat: no-repeat;
     background-size: cover;
   }
 
   .container{
       position: absolute;
-      background-color: rgba(255, 255, 255, 0.4);
+      background-color: rgba(202, 127, 126, 0.7);
       top: 50%;
       left: 50%;
       width: 30%;
       height: 55%;
       transform: translate(0, -60%);
-      border: none;
+      border: 5px solid rgb(0, 34, 71, 1);
       padding: 10px;  
       text-align: center;
-      border: 1.5px solid;
       box-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
       border-radius: 10px;
   }
